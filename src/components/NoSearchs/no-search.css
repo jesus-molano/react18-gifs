@@ -1,0 +1,18 @@
+.no-search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.no-search span{
+  color: #fff;
+  font-size: 1.5rem;
+}
+.no-search img{
+  width: 50px;
+  transform: rotate(90deg);
+}
+.no-search img:nth-child(3){
+  transform: scaleX(-1) rotate(90deg);
+
+}
