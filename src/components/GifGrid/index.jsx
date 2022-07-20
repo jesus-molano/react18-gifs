@@ -9,7 +9,7 @@ const GifGrid = ({ category }) => {
   return (
     <div className='category'>
       {
-        isLoading && (<p>Loading...</p>)
+        isLoading && (<p className='loading'>Loading...</p>)
       }
       <h2>{category}</h2>
       <div className='card-grid'>
