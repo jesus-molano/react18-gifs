@@ -11,7 +11,6 @@ const GifApp = () => {
     if (categories.includes(newCategory)) return
     setCategories([newCategory, ...categories])
   }
-  console.log(categories);
 
   return (
     <>
