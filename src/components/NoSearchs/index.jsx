@@ -2,9 +2,9 @@ import './no-search.css'
 const NoSearch = () => {
   return (
     <div className='no-search'>
-      <img src="../../assets/arrow-left.png" alt="arrow" />
+      <div className='arrow'></div>
       <span>Do a search in the bar above</span>
-      <img src="../../assets/arrow-left.png" alt="arrow" />
+      <div className='arrow'></div>
     </div>
   )
 }
